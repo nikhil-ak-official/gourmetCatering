@@ -1,0 +1,150 @@
+.body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+.navigator {
+    display:flex;
+    box-shadow: 0px 4px 5px 0px #D3D3D3;
+}
+.topleftnav {
+    flex: 1;
+    padding: 20px;
+}
+.topnav {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+.topnav a,.topleftnav a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.caption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: grey;
+}
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 100px;
+   
+}
+.content1 {
+    display: flex;
+    margin-top: 70px;
+}
+.content1-left {
+    flex:1;
+    text-align: right;
+    padding-right: 40px;
+}
+.content1-right {
+    flex: 1;
+    line-height: 1.5;    
+}
+.content1-right h1,.subheading {
+    letter-spacing: 4px;
+    text-align: center;
+}
+.content1-right h1 {}
+.subheading {
+    font-size: 18px;
+}
+.highlight {
+    background-color: #D3D3D3;
+    padding: 2px;
+
+}
+.fontchange {
+    color: grey;
+}
+.content2 {
+    display:flex;
+    padding-top: 100px;
+}
+.content2-left {
+    flex: 1;
+}
+.content2-left h1 {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+.content2-left h2 {
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.content2-left p {
+    margin-bottom: 40px;
+    color: grey;
+}
+.content2-right {
+    flex: 1;
+    padding-left: 40px;    
+}
+.content3 {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.content3 h1 {
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+.font {
+    color: #6495ED;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.input {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.input input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 25px;
+}
+.input .icon {
+    position: relative;
+}
+.input .icon i {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+
+
+}
+#send {
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #DCDCDC;
+    border: none;
+}
+footer {
+    height: 100px;
+    background-color: #DCDCDC;
+}
+footer p {
+    text-align: center;
+    padding-top: 40px;
+}
+footer a {
+    color: black
+}

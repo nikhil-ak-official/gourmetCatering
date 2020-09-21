@@ -1,6 +1,7 @@
-.body {
+body {
     font-family:  Georgia, 'Times New Roman', Times, serif;
     color: black;
+    font-size: 14px;
 }
 .navigator {
     display:flex;
@@ -59,6 +60,9 @@ figcaption {
     letter-spacing: 4px;
     text-align: center;
 }
+.about h1 {
+    font-weight: lighter;
+}
 
 .subheading {
     font-size: 18px;
@@ -98,6 +102,12 @@ figcaption {
 .h1 {
     letter-spacing: 2px;
     padding-bottom: 30px;
+}
+.contact {
+    margin-top: 70px;
+}
+.contact h1 {
+    font-weight: lighter;
 }
 .blue-font {
     color: #6495ED;

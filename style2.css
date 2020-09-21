@@ -6,7 +6,7 @@
     display:flex;
     box-shadow: 0px 4px 5px 0px #D3D3D3;
 }
-.Gourmet au Catering {
+.home {
     flex: 1;
     padding: 20px;
 }
@@ -15,13 +15,13 @@
     padding: 20px;
     text-align: right;
 }
-.nav a,.Gourmet au Catering a {
+.nav a,.home a {
     color: black;
     text-decoration: none;
     padding: 15px;
     letter-spacing: 2px;
 }
-.container {
+.main-image {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
@@ -34,7 +34,7 @@ figcaption {
     letter-spacing: 2px;
     color: grey;
 }
-.main {
+.container {
     max-width: 1000px;
     margin: 0 auto;
     border-bottom: 1px solid #D3D3D3;
@@ -45,16 +45,16 @@ figcaption {
     display: flex;
     margin-top: 70px;
 }
-.image1 {
+.image2 {
     flex:1;
     text-align: right;
     padding-right: 40px;
 }
-.About {
+.about {
     flex: 1;
     line-height: 1.5;    
 }
-.About h1,.subheading {
+.about h1,.subheading {
     letter-spacing: 4px;
     text-align: center;
 }
@@ -67,46 +67,44 @@ figcaption {
     padding: 2px;
 
 }
-.fontchange {
+.light-font {
     color: grey;
 }
 
-.Menu {
+.menu {
     flex: 1;
     margin-top: 30px;
 }
-.Menu h1 {
+.menu h1 {
     font-weight: 400;
     text-align: center;
     letter-spacing: 4px;
     margin-bottom: 50px;
 }
-.Menu h2 {
+.menu h2 {
     font-weight: lighter;
     letter-spacing: 4px;
 }
-.Menu p {
+.menu p {
     margin-bottom: 40px;
     color: grey;
 }
-.image2 {
+.image3 {
     flex: 1;
     margin-top: 30px;
     padding-left: 40px;    
 }
-.Contact {
+.contact {
     max-width: 1000px;
-    margin: 0 auto;
-    margin-top: 70px;
-    margin-bottom: 80px;
+    margin: 70px auto 80px auto;
 }
-.Contact h1 {
+.contact h1 {
     letter-spacing: 2px;
     padding-bottom: 30px;
 }
-.font {
+.blue-font {
     color: #6495ED;
-    font-size: 1.1em;
+    font-size: 20px;
     font-weight: bold;
 }
 form {
@@ -119,10 +117,10 @@ form input {
     border-bottom: 1px solid grey;
     padding: 25px 25px 25px 10px;
 }
-form .icon {
+.calendar-icon {
     position: relative;
 }
-form .icon i {
+.calendar-icon i {
     position: absolute;
     bottom: 40px;
     right: 0px;

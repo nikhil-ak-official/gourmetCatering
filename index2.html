@@ -9,44 +9,48 @@
    
 </head>
 <body>
+    <header>
+        <nav class="navigator">
+            <div class= "Gourmet au Catering">
+                <a href="Home">Gourmet au Catering</a>
+            </div>
+            <div class="nav">
+                <a href="About">About</a>
+                <a href="Menu">Menu</a>
+                <a href="Contact">Contact</a>
+            </div>
+        </nav>
+
+    </header>
    
-    <nav class="navigator">
-        <div class= "topleftnav">
-            <a href="Home">Gourmet au Catering</a>
-        </div>
-        <div class="topnav">
-            <a href="About">About</a>
-            <a href="Menu">Menu</a>
-            <a href="Contact">Contact</a>
-        </div>
-    </nav>
     
-    <div class="container">
+    
+    <figure class="container">
         <img src="images/image1.jpg" alt="burger" width= 100%>
-        <div class="caption">Le Catering</div>
-    </div>
+        <figcaption>Le Catering</figcaption>
+    </figure>
     <div class="main">
-        <div class="content1">
-            <div class="content1-left">
+        <div class="content">
+            <div class="image1">
                 <img src="images/image2.jpg" alt="fooditem" width= 100%>
             </div>
-            <div class="content1-right">
+            <div class="About">
                 <h1>About Catering</h1>
-                <div class="subheading">Tradition since 1889</div>
+                <span class="subheading">Tradition since 1889</span>
                 <p>
-                    The Catering was founded in blabla by Mr. Smith in lorem ipsum<br>
-                    dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit,<br>
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br>
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris<br> 
-                    nisi ut aliquip ex ea commodo consequat.Duis aute iruredolor in<br>
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla<br>
+                    The Catering was founded in blabla by Mr. Smith in lorem ipsum
+                    dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo consequat.Duis aute iruredolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
                     pariatur.We only use <span class="highlight">seasonal</span> ingredients.
                 </p>
                 <p class="fontchange">
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui<br>
-                    officia deserunt mollit anim id est laborum consectetur adipiscing<br>
-                    elit, sed do eiusmod temporincididunt ut labore et dolore magna<br>
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco<br> 
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum consectetur adipiscing
+                    elit, sed do eiusmod temporincididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                     laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
                         
@@ -55,8 +59,8 @@
         </div>
     </div>   
     <div class="main">
-        <div class="content2">
-            <div class="content2-left">
+        <div class="content">
+            <div class="Menu">
                 <h1>Our Menu</h1>
                 <h2>Bread Basket</h2>
                 <p>Assortment of fresh baked fruit breads and muffins 5.50</p>
@@ -69,12 +73,12 @@
                 <h2>Blueberry Pancakes</h2>
                 <p>With syrup, butter and lots of berries 8.50</p>
             </div>
-            <div class="content2-right">
+            <div class="image2">
                 <img src="images/image3.jpg" alt="fooditem" width=90%>
             </div>
         </div>
     </div>  
-    <div class="content3">
+    <div class="Contact">
         <h1>Contact</h1>
         <p>We offer full-service catering for any event, large or small. We understand your
         needs and we will cater the food satisfy the biggerst criteria of them all,
@@ -84,7 +88,7 @@
         Catering Service, 42nd Living St, 43043 New York, NY
         </p>
         <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-        <div class="input">
+        <form>
             
             <input type="text" name="name" placeholder="Name"><br>
             <input type="number" name="how many people" placeholder="How many people"><br>
@@ -94,8 +98,8 @@
             </div>
             
             <input type="text" name="message" placeholder="Message \ Special requirements"><br>
-        </div>
-        <input type="button" name="done" id="send" value="SEND MESSAGE"><br>
+            <button>SEND MESSAGE</button>
+        </form>
     </div>
     <footer>
         <p>Powered by <a href="">w3.css</a></p>

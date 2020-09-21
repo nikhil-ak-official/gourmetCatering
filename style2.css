@@ -6,16 +6,16 @@
     display:flex;
     box-shadow: 0px 4px 5px 0px #D3D3D3;
 }
-.topleftnav {
+.Gourmet au Catering {
     flex: 1;
     padding: 20px;
 }
-.topnav {
+.nav {
     flex: 1;
     padding: 20px;
     text-align: right;
 }
-.topnav a,.topleftnav a {
+.nav a,.Gourmet au Catering a {
     color: black;
     text-decoration: none;
     padding: 15px;
@@ -26,7 +26,7 @@
     max-width: 1200px;
     margin: 0 auto;
 }
-.caption {
+figcaption {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -41,24 +41,24 @@
     padding-bottom: 100px;
    
 }
-.content1 {
+.content {
     display: flex;
     margin-top: 70px;
 }
-.content1-left {
+.image1 {
     flex:1;
     text-align: right;
     padding-right: 40px;
 }
-.content1-right {
+.About {
     flex: 1;
     line-height: 1.5;    
 }
-.content1-right h1,.subheading {
+.About h1,.subheading {
     letter-spacing: 4px;
     text-align: center;
 }
-.content1-right h1 {}
+
 .subheading {
     font-size: 18px;
 }
@@ -70,38 +70,37 @@
 .fontchange {
     color: grey;
 }
-.content2 {
-    display:flex;
-    padding-top: 100px;
-}
-.content2-left {
+
+.Menu {
     flex: 1;
+    margin-top: 30px;
 }
-.content2-left h1 {
+.Menu h1 {
     font-weight: 400;
     text-align: center;
     letter-spacing: 4px;
     margin-bottom: 50px;
 }
-.content2-left h2 {
+.Menu h2 {
     font-weight: lighter;
     letter-spacing: 4px;
 }
-.content2-left p {
+.Menu p {
     margin-bottom: 40px;
     color: grey;
 }
-.content2-right {
+.image2 {
     flex: 1;
+    margin-top: 30px;
     padding-left: 40px;    
 }
-.content3 {
+.Contact {
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 70px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
-.content3 h1 {
+.Contact h1 {
     letter-spacing: 2px;
     padding-bottom: 30px;
 }
@@ -110,40 +109,41 @@
     font-size: 1.1em;
     font-weight: bold;
 }
-.input {
+form {
     margin-top: 20px;
     padding-bottom: 20px;
 }
-.input input {
+form input {
     width: 100%;
     border: none;
     border-bottom: 1px solid grey;
-    padding: 25px;
+    padding: 25px 25px 25px 10px;
 }
-.input .icon {
+form .icon {
     position: relative;
 }
-.input .icon i {
+form .icon i {
     position: absolute;
     bottom: 40px;
     right: 0px;
-
-
 }
-#send {
-    margin-top: 10px;
+
+button {
+    margin-top: 30px;
     padding: 10px;
     font-weight: 500;
     background-color: #DCDCDC;
     border: none;
 }
 footer {
-    height: 100px;
+    height: 125px;
+    width: 100%;
     background-color: #DCDCDC;
 }
 footer p {
     text-align: center;
-    padding-top: 40px;
+    padding-top: 50px;
+ 
 }
 footer a {
     color: black

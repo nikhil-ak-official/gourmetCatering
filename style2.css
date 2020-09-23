@@ -1,0 +1,156 @@
+body {
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-size: 14px;
+}
+.navigator {
+    display:flex;
+    box-shadow: 0px 4px 5px 0px #D3D3D3;
+}
+.home {
+    flex: 1;
+    padding: 20px;
+}
+.nav {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+}
+.nav a,.home a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    letter-spacing: 2px;
+}
+.main-image {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+figcaption {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    color: grey;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    
+   
+}
+.content {
+    display: flex;
+    margin-top: 70px;
+    border-bottom: 1px solid #D3D3D3;
+    padding-bottom: 100px;
+}
+.image2 {
+    flex:1;
+    text-align: right;
+    margin-left: 0px;
+}
+.about {
+    flex: 1;
+    line-height: 1.5;    
+}
+.about h1,.subheading {
+    letter-spacing: 4px;
+    text-align: center;
+}
+.about h1 {
+    font-weight: lighter;
+}
+
+.subheading {
+    font-size: 18px;
+}
+.highlight {
+    background-color: #D3D3D3;
+    padding: 2px;
+
+}
+.light-font {
+    color: grey;
+}
+
+.menu {
+    flex: 1;
+    margin-top: 30px;
+}
+.menu h1 {
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 4px;
+    margin-bottom: 50px;
+}
+.menu h2 {
+    font-weight: lighter;
+    letter-spacing: 4px;
+}
+.menu p {
+    margin-bottom: 40px;
+    color: grey;
+}
+.image3 {
+    flex: 1;
+    margin-top: 30px;
+    padding-left: 40px;    
+}
+.h1 {
+    letter-spacing: 2px;
+    padding-bottom: 30px;
+}
+.contact {
+    margin-top: 70px;
+}
+.contact h1 {
+    font-weight: lighter;
+}
+.blue-font {
+    color: #6495ED;
+    font-size: 20px;
+    font-weight: bold;
+}
+form {
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+form input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 25px 25px 25px 10px;
+}
+.calendar-icon {
+    position: relative;
+}
+.calendar-icon i {
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #DCDCDC;
+    border: none;
+}
+footer {
+    height: 125px;
+    width: 100%;
+    background-color: #DCDCDC;
+    margin-top: 70px;
+}
+footer p {
+    text-align: center;
+    padding-top: 50px;
+ 
+}
+footer a {
+    color: black
+}

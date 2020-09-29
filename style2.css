@@ -2,6 +2,7 @@ body {
     font-family:  Georgia, 'Times New Roman', Times, serif;
     color: black;
     font-size: 14px;
+    margin: 0px;
 }
 .navigator {
     display:flex;
@@ -38,8 +39,6 @@ figcaption {
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    
-   
 }
 .content {
     display: flex;
@@ -70,7 +69,6 @@ figcaption {
 .highlight {
     background-color: #D3D3D3;
     padding: 2px;
-
 }
 .light-font {
     color: grey;
@@ -132,18 +130,17 @@ form input {
     bottom: 40px;
     right: 0px;
 }
-
 button {
     margin-top: 30px;
     padding: 10px;
     font-weight: 500;
-    background-color: #DCDCDC;
+    background-color: #e6e3e3;
     border: none;
 }
 footer {
     height: 125px;
     width: 100%;
-    background-color: #DCDCDC;
+    background-color: #e6e3e3;
     margin-top: 70px;
 }
 footer p {
